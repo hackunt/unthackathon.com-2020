@@ -1,0 +1,23 @@
+.spark {
+   animation: fly 0.4s;
+   animation-timing-function: ease-out;
+   position: absolute;
+   left: 80vmax;
+   opacity: 0;
+}
+
+@keyframes fly {
+   0% {
+      left: 50vmax;
+      opacity: 1;
+   }
+
+   80% {
+      opacity: 1;
+   }
+
+   100% {
+      left: 80vmax;
+      opacity: 0;
+   }
+}

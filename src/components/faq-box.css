@@ -1,0 +1,23 @@
+.faqbox {
+   width: calc(100% - 30px);
+   background: rgb(49, 199, 69);
+   padding: 5px;
+   border: #000 solid 10px;
+   margin: 10px 0;
+   color: #fff;
+   transition: max-height 0.6s;
+   max-height: 30px;
+   overflow: hidden;
+}
+
+.faqbox.open {
+   max-height: 500px;
+}
+
+.question {
+   font-size: 1.3em;
+}
+
+.answer a {
+   color: #FBCA03 !important;
+}

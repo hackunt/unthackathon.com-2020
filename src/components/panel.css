@@ -1,0 +1,153 @@
+.panel {
+   margin: 20px auto;
+   width: calc(100% - 20px);
+   position: relative;
+   padding: 10px;
+   min-height: calc(13vh - 100px);
+   background: #fff;
+   animation: becomeVisible 0.6s;
+   transform: scale(1) rotate(0deg);
+   transition: transform 0.3s;
+}
+
+.panel:hover {
+   transform: scale(1.05) rotate(2deg);
+}
+
+.content {
+   opacity: 1;
+   animation: becomeVisible 1.2s;
+   z-index: 1;
+   height: calc(28vh - 160px);
+   min-height: 80px;
+   background-size: cover !important;
+}
+
+iframe {
+   animation: becomeVisible 1.8s;
+}
+
+.top {
+   width: 100%;
+   height: 10px;
+   background: #000;
+   left: 0;
+   top: 0;
+   position: absolute;
+   animation: growWidth 1.2s;
+}
+
+.left {
+   width: 10px;
+   height: 100%;
+   background: #000;
+   left: 0;
+   bottom: 0;
+   position: absolute;
+   animation: growHeight 1.2s;
+   z-index: 4;
+}
+
+.bottom {
+   width: 100%;
+   height: 10px;
+   background: #000;
+   right: 0;
+   bottom: 0;
+   position: absolute;
+   animation: growWidth 1.2s;
+}
+
+.right {
+   width: 10px;
+   height: 100%;
+   background: #000;
+   right: 0;
+   top: 0;
+   position: absolute;
+   animation: growHeight 1.2s;
+}
+
+.text {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   border-width: 0 3px 3px 0;
+   border-color: black;
+   border-style: solid;
+   transform: skew(-30deg);
+   padding: 6px;
+   background: #fff;
+   z-index: 3;
+}
+
+.text::before {
+   content: '';
+   display: block;
+   width: 15px;
+   height: 30px;
+   background: #fff;
+   position: absolute;
+   left: -10px;
+   top: 0px;
+   z-index: 1;
+}
+
+a {
+   color: inherit;
+   text-decoration: inherit;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.panel p {
+   margin: 0;
+   position: absolute;
+   right: 40px;
+   bottom: 20px;
+   color: #fff;
+}
+
+@keyframes growWidth {
+   0% {
+      width: 0;
+   }
+
+   50% {
+      width: 0;
+   }
+
+   100% {
+      width: 100%;
+   }
+}
+
+@keyframes growHeight {
+   0% {
+      height: 0;
+   }
+
+   50% {
+      height: 0;
+   }
+
+   100% {
+      height: 100%;
+   }
+}
+
+@keyframes becomeVisible {
+   0% {
+      opacity: 0;
+   }
+
+   80% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+   }
+}

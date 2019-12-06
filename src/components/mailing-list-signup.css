@@ -1,0 +1,43 @@
+#mc_embed_signup {
+   animation: becomeVisible 0.8s;
+   opacity: 1;
+}
+
+#mce-EMAIL, #mc-embedded-subscribe {
+   border: 10px #000 solid;
+   padding: 10px;
+   font-size: 14px;
+   font-family: 'mufferaw';
+}
+
+#mce-EMAIL {
+   margin-right: 20px;
+   width: calc(100% - 190px);
+}
+
+#mc-embedded-subscribe {
+   width: 130px;
+   background: #fff;
+   color: #000;
+   transition: background 0.3s, color 0.3s;
+   cursor: pointer;
+}
+
+#mc-embedded-subscribe:hover {
+   background: #000;
+   color: #fff;
+}
+
+@keyframes becomeVisible {
+   0% {
+      opacity: 0;
+   }
+
+   80% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+   }
+}

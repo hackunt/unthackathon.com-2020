@@ -1,0 +1,15 @@
+footer a {
+   display: inline-block;
+   margin: 7px;
+   font-size: 1.5em;
+   transform: scale(1);
+   text-shadow: 0 0 0 #0000;
+   transition: transform 0.3s, text-shadow 0.3s, color 0.3s;
+}
+
+footer a:hover {
+   transform: scale(1.2);
+   color: rgb(49, 199, 69);
+   text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000,
+                -2px -2px 0 #fff, -3px -3px 0 #000;
+}

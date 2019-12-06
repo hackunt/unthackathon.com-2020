@@ -1,0 +1,26 @@
+.teammembers {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   justify-content: center;
+}
+
+.teammember {
+   min-width: 300px;
+   margin: 40px 20px 0 20px;
+}
+
+.teammember .name, .teammember .title {
+   text-align: center;
+}
+
+.teammember .face {
+   display: block;
+   width: 150px;
+   height: 150px;
+   border: 5px black solid;
+   margin: 0 auto;
+   border-radius: 50%;
+   background-size: cover;
+   background-position: center;
+}

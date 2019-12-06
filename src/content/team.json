@@ -1,0 +1,42 @@
+[
+   {
+      "name": "Gabriel Castro",
+      "title": "Regional Manager",
+      "image": "/images/gabe.jpg"
+   },
+   {
+      "name": "Brayden Cloud",
+      "title": "Assistant to the Regional Manager",
+      "image": "/images/brayden.png"
+   },
+   {
+      "name": "Ben Taylor",
+      "title": "Lowly Local Hackerman",
+      "image": "/images/ben.jpg#this_is_me!_I_made_this!"
+   },
+   {
+      "name": "Chris Panko",
+      "title": "Sponsorship Overlord",
+      "image": "/images/chris.jpeg"
+   },
+   {
+      "name": "Miranda Apple",
+      "title": "Miranda",
+      "image": "/images/miranda.jpeg"
+   },
+   {
+      "name": "Jacob Woodson",
+      "title": "Director of Hypervisor of Mr. Tindle",
+      "image": "/images/jacob.jpeg"
+   },
+   {
+      "name": "Malena Reyes",
+      "title": "Experience Commandant",
+      "image": "/images/malena.jpeg"
+   },
+   {
+      "name": "Nick Tindle",
+      "title": "Director of Direction Directives",
+      "image": "/images/nick.jpeg"
+   }
+]

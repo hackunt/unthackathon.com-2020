@@ -1,0 +1,10 @@
+.date {
+   font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+   .date {
+      font-size: 3.4vw;
+      margin-top: calc(-4.2vw + 10px) !important;
+   }
+}

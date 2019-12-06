@@ -1,0 +1,28 @@
+.logos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.sponsors {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.sponsorlogo {
+   display: block;
+   width: 200px;
+   margin: 10px;
+   height: 200px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   filter: grayscale(100%) brightness(120%);
+   transform: scale(1);
+   transition: transform 0.15s ease-in-out, filter 0.3s;
+}
+
+.sponsorlogo:hover {
+   filter: grayscale(0%) brightness(100%);
+   transform: scale(1.1);
+}

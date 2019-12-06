@@ -1,0 +1,87 @@
+[
+   {
+      "name": "Google",
+      "image": "/images/sponsors/google.png",
+      "link": "https://about.google/intl/en/"
+   },
+   {
+      "name": "State Farm",
+      "image": "/images/sponsors/statefarm.png",
+      "link": "https://www.statefarm.com/"
+   },
+   {
+      "name": "NSA",
+      "image": "/images/sponsors/NSA.png",
+      "link": "https://www.intelligencecareers.gov/nsa/"
+   },
+   {
+      "name": "agglo",
+      "image": "/images/sponsors/agglo.png",
+      "link": "http://www.agglo.io/"
+   },
+   {
+      "name": "CloudSploit",
+      "image": "/images/sponsors/cloudsploit.png",
+      "link": "https://cloudsploit.com/"
+   },
+   {
+      "name": "Copart",
+      "image": "/images/sponsors/Copart.png",
+      "link": "https://www.copart.com/"
+   },
+   {
+      "name": "dottech",
+      "image": "/images/sponsors/dottech-dark.png",
+      "link": "https://get.tech/"
+   },
+   {
+      "name": "JCPenny",
+      "image": "/images/sponsors/jcpenney_logo.svg",
+      "link": "https://www.jcpenney.com/"
+   },
+   {
+      "name": "Laundris",
+      "image": "/images/sponsors/laundris.png",
+      "link": "https://www.linkedin.com/company/austin-laundry/"
+   },
+   {
+      "name": "Samsung Internet",
+      "image": "/images/sponsors/logo-Samsung-Dark_Font.svg",
+      "link": "https://www.samsung.com/us/support/owners/app/samsung-internet"
+   },
+   {
+      "name": "Soylent",
+      "image": "/images/sponsors/soylent.svg",
+      "link": "https://www.soylent.com/"
+   },
+   {
+      "name": "Standard User",
+      "image": "/images/sponsors/stduser_horizcolor_web.png",
+      "link": "https://standardusercybersecurity.com/"
+   },
+   {
+      "name": "STEM at the Park",
+      "image": "/images/sponsors/STEMatthePark.png",
+      "link": "https://www.engineering.unt.edu/"
+   },
+   {
+      "name": "Stoke",
+      "image": "/images/sponsors/stoke.png",
+      "link": "https://stokedenton.com/"
+   },
+   {
+      "name": "Tyler Tech",
+      "image": "/images/sponsors/tylertech.png",
+      "link": "https://www.tylertech.com/"
+   },
+   {
+      "name": "Wolfram",
+      "image": "/images/sponsors/wolfram-logo.svg",
+      "link": "http://www.wolfram.com/"
+   },
+   {
+      "name": "Estimote",
+      "image": "/images/sponsors/estimote.png",
+      "link": "https://estimote.com/"
+   }
+]
