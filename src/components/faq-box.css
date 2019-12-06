@@ -8,6 +8,7 @@
    transition: max-height 0.6s;
    max-height: 30px;
    overflow: hidden;
+   cursor: pointer;
 }
 
 .faqbox.open {
