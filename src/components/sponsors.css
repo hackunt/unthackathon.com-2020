@@ -26,3 +26,10 @@
    filter: grayscale(0%) brightness(100%);
    transform: scale(1.1);
 }
+
+@media (hover: none) {
+   .sponsorlogo {
+      filter: grayscale(0%) brightness(100%);
+      transform: scale(1.1);
+   }
+}
