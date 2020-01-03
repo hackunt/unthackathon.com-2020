@@ -14,7 +14,7 @@ const RegisterButton = (props) => (
             minHeight: 80,
             color: 'rgb(49, 199, 69)', 
             fontSize: 50,
-            fontFamily: 'mufferaw',
+            fontFamily: "'mufferaw'",
             lineHeight: window.innerHeight < 800 ? '80px' : 'calc(28vh - 160px)',
             textShadow: `4px 0 0 #000, -4px 0 0 #000, 0 4px 0 #000, 0 -4px 0 #000, 
                         2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000,

@@ -1,14 +1,14 @@
 [
    {
-      "icon": "far fa-envelope",
+      "icon": "icon-mail-alt",
       "link": "mailto:officialhackunt@gmail.com"
    },
    {
-      "icon": "fab fa-twitter",
+      "icon": "icon-twitter",
       "link": "https://twitter.com/OfficialHackUNT"
    },
    {
-      "icon": "fab fa-slack",
+      "icon": "icon-slack",
       "link": "https://communityinviter.com/apps/hackunt/hackunt"
    }
 ]
