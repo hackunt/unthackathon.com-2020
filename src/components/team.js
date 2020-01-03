@@ -9,8 +9,6 @@ class Team extends Component {
       this.state = {
          loaded: false
       }
-
-      setTimeout(() => this.loadImages(), 2000)
    }
 
    loadImages () {

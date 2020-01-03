@@ -8,8 +8,6 @@ class Sponsors extends Component {
       this.state = {
          loaded: false
       }
-
-      setTimeout(() => this.loadImages(), 4000)
    }
 
    loadImages () {
