@@ -25,7 +25,7 @@ class Sponsors extends Component {
    }
    
    handleScroll = (event) => {
-      if (window.scrollY > 1000) {
+      if (window.scrollY > 1600) {
          this.loadImages();
       }
    }
