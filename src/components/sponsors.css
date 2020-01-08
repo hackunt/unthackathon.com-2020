@@ -13,7 +13,7 @@
    display: block;
    width: 200px;
    margin: 10px;
-   height: 200px;
+   height: 100px;
    background-repeat: no-repeat;
    background-position: center;
    background-size: contain;
@@ -22,14 +22,60 @@
    transition: transform 0.15s ease-in-out, filter 0.3s;
 }
 
-.sponsorlogo:hover {
+.smaller .sponsorlogo {
+   width: 80px;
+   height: 80px;
+   margin: 20px;
+}
+
+a:hover .sponsorlogo {
    /*filter: grayscale(0%) brightness(100%);*/
    transform: scale(1.1) rotate(3deg);
+}
+
+.subheading {
+   font-family: 'Inconsolata';
+   text-shadow: none;
+   font-size: 3.5em;
+   color: black;
+   margin-top: -20px;
+}
+
+.smaller .subheading {
+   font-size: 2.5em;
+}
+
+.sponsor-section {
+   width: 60%;
+   margin: 20px auto;
+}
+
+.bigger .sponsorlogo {
+   width: 600px;
+   height: 100px;
+   max-width: 90vw;
+}
+
+.bigger .sponsorlogo::after {
+   content: '';
+   display: block;
+   width: 100vw;
+   height: 1px;
+}
+
+.bigger {
+   margin-bottom: 40px;
 }
 
 @media (hover: none) {
    .sponsorlogo {
       filter: grayscale(0%) brightness(100%);
       transform: scale(1.1);
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .sponsor-section {
+      width: 90%;
    }
 }

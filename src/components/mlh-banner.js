@@ -7,7 +7,8 @@ const MLHBanner = (props) => (
          position: 'fixed',
          top: 0,
          right: '10vw',
-         width: 100
+         width: 'calc(5vw + 50px)',
+         zIndex: 1000
       }}
    >
       <img src='/images/mlh-banner.svg' alt='Major League Hacking 2020 Season Official Event' />

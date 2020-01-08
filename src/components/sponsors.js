@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import sponsors from '../content/previous_sponsors.json';
+import previous_sponsors from '../content/previous_sponsors.json';
+import sponsors from '../content/sponsors.json';
 import './sponsors.css';
 
 class Sponsors extends Component {
@@ -31,19 +32,50 @@ class Sponsors extends Component {
    }
 
    render = () => (
-      <section>
-         <h2>Previous Sponsors</h2>
-         <p style={{ textAlign: 'center', fontSize: '1.4em' }}>Interested in <a href='/2020_Sponsorship_Doc.pdf' style={{ color: 'rgb(49, 199, 69)', textDecoration: 'underline' }}>sponsoring</a> 2020?</p>
-         <div className='logos'>
+      <section className='sponsor-section'>
+         <h2>Sponsors</h2>
+         <p style={{ textAlign: 'center', fontSize: '1.4em', marginBottom: 5, marginTop: 0 }}>Interested in <a href='/2020_Sponsorship_Doc.pdf' style={{ color: 'rgb(49, 199, 69)', textDecoration: 'underline' }}>sponsoring</a> 2020?</p>
+         
+         <div className='bigger'>
+            <h2 className='subheading' style={{ fontSize: '2.5em' }}>Presenting Sponsors</h2>
+            <div className='logos'>
+               {
+                  this.state.loaded ?
+                  sponsors.slice(0, 2).map(sponsor => (
+                     <a href={sponsor.link}>
+                        <div className='sponsorlogo' style={{ backgroundImage: `url(${sponsor.image})` }} alt={sponsor.name} />
+                     </a>
+                  ))
+                  : null
+               }
+            </div>
+         </div>
+
+         <div className='logos' style={{ marginTop: 0 }}>
             {
                this.state.loaded ?
-               sponsors.map(sponsor => (
+               sponsors.slice(2).map(sponsor => (
                   <a href={sponsor.link}>
                      <div className='sponsorlogo' style={{ backgroundImage: `url(${sponsor.image})` }} alt={sponsor.name} />
                   </a>
                ))
                : null
             }
+         </div>
+         
+         <div className='smaller'>
+            <h2 className='subheading smaller' style={{ marginTop: 10 }}>Previous Sponsors</h2>
+            <div className='logos'>
+               {
+                  this.state.loaded ?
+                  previous_sponsors.map(sponsor => (
+                     <a href={sponsor.link}>
+                        <div className='sponsorlogo smaller' style={{ backgroundImage: `url(${sponsor.image})` }} alt={sponsor.name} />
+                     </a>
+                  ))
+                  : null
+               }
+            </div>
          </div>
       </section>
    )

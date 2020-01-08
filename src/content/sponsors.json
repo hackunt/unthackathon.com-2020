@@ -5,8 +5,23 @@
       "link": "https://jobs.aa.com/"
    },
    {
+      "name": "State Farm",
+      "image": "/images/sponsors/statefarm.png",
+      "link": "https://www.statefarm.com/"
+   },
+   {
       "name": "balsamiq",
       "image": "/images/sponsors/balsamiq-logo-noborder-screen.svg",
       "link": "https://balsamiq.com/"
+   },
+   {
+      "name": "qliqsoft",
+      "image": "/images/sponsors/qliqsoft.png",
+      "link": "https://www.qliqsoft.com/"
+   },
+   {
+      "name": "Stoke",
+      "image": "/images/sponsors/stoke.png",
+      "link": "https://stokedenton.com/"
    }
 ]
