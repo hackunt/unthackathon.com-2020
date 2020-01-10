@@ -23,5 +23,15 @@
       "name": "Stoke",
       "image": "/images/sponsors/stoke.png",
       "link": "https://stokedenton.com/"
+   },
+   {
+      "name": "RESPEC",
+      "image": "/images/sponsors/respec.png",
+      "link": "https://www.respec.com/"
+   },
+   {
+      "name": "UNT Transportation Services",
+      "image": "/images/sponsors/transportation.png",
+      "link": "https://financeadmin.unt.edu/"
    }
 ]
