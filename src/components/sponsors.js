@@ -51,19 +51,21 @@ class Sponsors extends Component {
             </div>
          </div>
 
-         <div className='logos' style={{ marginTop: 0 }}>
-            {
-               this.state.loaded ?
-               sponsors.slice(2).map(sponsor => (
-                  <a href={sponsor.link}>
-                     <div className='sponsorlogo' style={{ backgroundImage: `url(${sponsor.image})` }} alt={sponsor.name} />
-                  </a>
-               ))
-               : null
-            }
+         <div className="wrap">
+            <div className='logos' style={{ marginTop: 0 }}>
+               {
+                  this.state.loaded ?
+                  sponsors.slice(2).map(sponsor => (
+                     <a href={sponsor.link}>
+                        <div className='sponsorlogo' style={{ backgroundImage: `url(${sponsor.image})` }} alt={sponsor.name} />
+                     </a>
+                  ))
+                  : null
+               }
+            </div>
          </div>
          
-         <div className='smaller'>
+         {/* <div className='smaller'>
             <h2 className='subheading smaller' style={{ marginTop: 10 }}>Previous Sponsors</h2>
             <div className='logos'>
                {
@@ -76,7 +78,7 @@ class Sponsors extends Component {
                   : null
                }
             </div>
-         </div>
+         </div> */}
       </section>
    )
 }

@@ -45,22 +45,15 @@ a:hover .sponsorlogo {
    font-size: 2.5em;
 }
 
-.sponsor-section {
+.wrap {
    width: 60%;
    margin: 20px auto;
 }
 
 .bigger .sponsorlogo {
-   width: 600px;
+   width: calc(50vw - 120px);
+   margin: 30px;
    height: 100px;
-   max-width: 90vw;
-}
-
-.bigger .sponsorlogo::after {
-   content: '';
-   display: block;
-   width: 100vw;
-   height: 1px;
 }
 
 .bigger {
