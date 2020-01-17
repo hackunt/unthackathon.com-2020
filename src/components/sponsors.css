@@ -12,6 +12,7 @@
 .sponsorlogo {
    display: block;
    width: 200px;
+   max-width: 30vw;
    margin: 10px;
    height: 100px;
    background-repeat: no-repeat;
@@ -54,6 +55,7 @@ a:hover .sponsorlogo {
    width: calc(50vw - 120px);
    margin: 30px;
    height: 100px;
+   min-width: 350px;
 }
 
 .bigger {
