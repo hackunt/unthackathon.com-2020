@@ -33,5 +33,15 @@
       "name": "UNT Transportation Services",
       "image": "/images/sponsors/transportation.png",
       "link": "https://transportation.unt.edu/"
+   },
+   {
+      "name": "PwC",
+      "image": "/images/sponsors/pwc.png",
+      "link": "https://www.pwc.com/"
+   },
+   {
+      "name": "Crestron",
+      "image": "/images/sponsors/crestron.png",
+      "link": "https://www.crestron.com/"
    }
 ]

@@ -5,8 +5,7 @@
 }
 
 .sponsors {
-   width: 80%;
-   margin: 0 auto;
+   
 }
 
 .sponsorlogo {
@@ -46,22 +45,20 @@ a:hover .sponsorlogo {
 }
 
 .sponsor-section {
-   width: 60%;
-   margin: 20px auto;
+   
 }
 
 .bigger .sponsorlogo {
-   width: 600px;
+   width: 40vw;
    height: 100px;
-   max-width: 90vw;
 }
 
-.bigger .sponsorlogo::after {
+/* .bigger .sponsorlogo::after {
    content: '';
    display: block;
    width: 100vw;
    height: 1px;
-}
+} */
 
 .bigger {
    margin-bottom: 40px;

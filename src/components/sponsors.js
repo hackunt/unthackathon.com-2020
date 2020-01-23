@@ -37,7 +37,7 @@ class Sponsors extends Component {
          <p style={{ textAlign: 'center', fontSize: '1.4em', marginBottom: 5, marginTop: 0 }}>Interested in <a href='/2020_Sponsorship_Doc.pdf' style={{ color: 'rgb(49, 199, 69)', textDecoration: 'underline' }}>sponsoring</a> 2020?</p>
          
          <div className='bigger'>
-            <h2 className='subheading' style={{ fontSize: '2.5em' }}>Presenting Sponsors</h2>
+            <h2 className='subheading' style={{ fontSize: '2.5em', marginBottom: 20 }}>Presented By</h2>
             <div className='logos'>
                {
                   this.state.loaded ?
@@ -51,6 +51,7 @@ class Sponsors extends Component {
             </div>
          </div>
 
+         <h2 className='subheading' style={{ fontSize: '2em', marginBottom: 20 }}>Other Sponsors</h2>
          <div className='logos' style={{ marginTop: 0 }}>
             {
                this.state.loaded ?
@@ -63,7 +64,7 @@ class Sponsors extends Component {
             }
          </div>
          
-         <div className='smaller'>
+         {/* <div className='smaller'>
             <h2 className='subheading smaller' style={{ marginTop: 10 }}>Previous Sponsors</h2>
             <div className='logos'>
                {
@@ -76,7 +77,7 @@ class Sponsors extends Component {
                   : null
                }
             </div>
-         </div>
+         </div> */}
       </section>
    )
 }
