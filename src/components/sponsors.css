@@ -50,7 +50,7 @@ a:hover .sponsorlogo {
 
 .bigger .sponsorlogo {
    width: 40vw;
-   height: 100px;
+
 }
 
 /* .bigger .sponsorlogo::after {
@@ -72,7 +72,7 @@ a:hover .sponsorlogo {
 }
 
 @media screen and (max-width: 600px) {
-   .sponsor-section {
-      width: 90%;
+   .bigger .sponsorlogo {
+      width: 90vw;
    }
 }
