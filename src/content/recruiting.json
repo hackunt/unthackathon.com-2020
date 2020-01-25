@@ -1,0 +1,25 @@
+[
+   {
+      "name": "American Airlines",
+      "logo": "/images/sponsors/aa_wordmark.png",
+      "link": "https://jobs.aa.com/",
+      "description": "When you think of airlines, technology may not be the first thing that comes to mind - but whether powering our planes, airports or internal systems, our IT/Engineering experts are pushing the limits of innovation. What does it feel like to develop technology that flies? This is your chance to find out."
+   },
+   {
+      "name": "State Farm",
+      "logo": "/images/sponsors/statefarm.png",
+      "link": "https://findjobs.statefarm.com/",
+      "description": "Work with a Good Neighbor. We work in an agile environment to quickly iterate and develop solutions that meet the needs of our Company and customers. We test and use cutting-edge technologies such as open source full stack development, mobile applications, and big data solutions.",
+      "endBig": true
+   },
+   {
+      "name": "PwC",
+      "logo": "/images/sponsors/pwc.png",
+      "link": "https://www.pwc.com/us/en/careers/entry-level/recruiting.html"
+   },
+   {
+      "name": "Crestron",
+      "logo": "/images/sponsors/crestron.png",
+      "link": "https://www.crestron.com/About/careers-jobs-employment-opportunities"
+   }
+]

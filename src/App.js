@@ -7,6 +7,7 @@ import What from './components/what';
 import Footer from './components/footer';
 import Sponsors from './components/sponsors';
 import MLHBanner from './components/mlh-banner';
+import Recruiting from './components/recruiting';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <FAQ />
       <Team />
       <Sponsors />
+      <Recruiting />
       <Footer />
     </div>
   );

@@ -78,6 +78,22 @@ class Sponsors extends Component {
                }
             </div>
          </div> */}
+
+         {/* <h2 className='subheading' style={{ fontSize: '2em', marginBottom: 20 }}>Looking for a job</h2> */}
+         {/* <div className='smaller'>
+            <h2 className='subheading smaller' style={{ marginTop: 10 }}>Previous Sponsors</h2>
+            <div className='logos'>
+               {
+                  this.state.loaded ?
+                  previous_sponsors.map(sponsor => (
+                     <a href={sponsor.link}>
+                        <div className='sponsorlogo smaller' style={{ backgroundImage: `url(${sponsor.image})` }} alt={sponsor.name} />
+                     </a>
+                  ))
+                  : null
+               }
+            </div>
+         </div> */}
       </section>
    )
 }
