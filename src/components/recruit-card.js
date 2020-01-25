@@ -8,7 +8,7 @@ const RecruitCard = (props) => (
          ? <p style={{ width: '90%', margin: '0 auto', lineHeight: 1.5 }}>{props.description}</p>
          : null
       }
-      <a href={props.link} style={{ display: 'block', border: '3px black solid', background: 'rgb(49, 199, 69)', padding: 4, width: '90%', margin: '10px auto' }}>
+      <a href={props.link} style={{ display: 'block', border: '3px black solid', background: 'rgb(49, 199, 69)', padding: 4, width: '90%', margin: '10px auto', textAlign: 'center' }}>
          See Available Jobs
       </a>
    </div>
