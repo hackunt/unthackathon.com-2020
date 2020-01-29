@@ -43,5 +43,25 @@
       "name": "Crestron",
       "image": "/images/sponsors/crestron.png",
       "link": "https://www.crestron.com/"
+   },
+   {
+      "name": "GitHub",
+      "image": "/images/sponsors/github.png",
+      "link": "https://github.com/"
+   },
+   {
+      "name": "Potbelly",
+      "image": "/images/sponsors/potbelly.png",
+      "link": "https://www.potbelly.com/"
+   },
+   {
+      "name": "The Halal Guys",
+      "image": "/images/sponsors/halal.png",
+      "link": "https://thehalalguys.com/"
+   },
+   {
+      "name": "Pokey O's",
+      "image": "/images/sponsors/pokeyo.png",
+      "link": "https://www.pokeyos.com/"
    }
 ]
