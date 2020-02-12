@@ -16,8 +16,28 @@
       "title": "Lunch"
    },
    {
+      "start": "1:30 PM",
+      "title": "GitHub Workshop"
+   },
+   {
+      "start": "3:00 PM",
+      "title": "PWC Workshop"
+   },
+   {
       "start": "5:00 PM",
       "title": "Dinner"
+   },
+   {
+      "start": "6:00 PM",
+      "title": "Respec Workshop"
+   },
+   {
+      "start": "7:30 PM",
+      "title": "MLH CTF"
+   },
+   {
+      "start": "9:00 PM",
+      "title": "MLH Event"
    },
    {
       "start": "12:00 AM",
@@ -30,6 +50,18 @@
    {
       "start": "8:00 AM",
       "title": "submit to devpost!"
+   },
+   {
+      "start": "9:00 AM",
+      "title": "please — devpost."
+   },
+   {
+      "start": "9:00 AM",
+      "title": "How to Pitch Workshop"
+   },
+   {
+      "start": "10:00 AM",
+      "title": "seriously, we're not kidding — devpost!"
    },
    {
       "start": "11:00 AM",

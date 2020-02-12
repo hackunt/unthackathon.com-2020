@@ -6,7 +6,11 @@
 
 .schedule li {
    padding: 10px;
-   background: rgb(49, 199, 69);
+   background-image: url('/images/stippling-right.png');
+   background-position: right;
+   background-size: 50%;
+   background-repeat: repeat-y;
+   background-color: rgb(49, 199, 69);
    border: #000 6px solid;
    margin: 4px 0;
    color: #fff;
@@ -19,4 +23,14 @@
 
 .schedule .time {
    padding-right: 60px;
+}
+
+.schedule .workshop {
+   background-color: #FBCA03;
+   color: #000;
+}
+
+.schedule .food {
+   background-color: #fff;
+   color: #000;
 }
