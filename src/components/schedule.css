@@ -1,0 +1,22 @@
+.schedule ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.schedule li {
+   padding: 10px;
+   background: rgb(49, 199, 69);
+   border: #000 6px solid;
+   margin: 4px 0;
+   color: #fff;
+   font-weight: bold;
+}
+
+.schedule h3 {
+   font-size: 2em;
+}
+
+.schedule .time {
+   padding-right: 60px;
+}

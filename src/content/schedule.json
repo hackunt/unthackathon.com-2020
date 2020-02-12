@@ -1,0 +1,50 @@
+[
+   {
+      "start": "9:00 AM",
+      "title": "Check-In"
+   },
+   {
+      "start": "10:00 AM",
+      "title": "Opening Ceremony"
+   },
+   {
+      "start": "11:00 AM",
+      "title": "Hacking Starts"
+   },
+   {
+      "start": "12:00 PM",
+      "title": "Lunch"
+   },
+   {
+      "start": "5:00 PM",
+      "title": "Dinner"
+   },
+   {
+      "start": "12:00 AM",
+      "title": "Midnight Snack"
+   },
+   {
+      "start": "7:00 AM",
+      "title": "Breakfast"
+   },
+   {
+      "start": "8:00 AM",
+      "title": "submit to devpost!"
+   },
+   {
+      "start": "11:00 AM",
+      "title": "Hacking Ends"
+   },
+   {
+      "start": "12:00 PM",
+      "title": "Lunch"
+   },
+   {
+      "start": "1:00 PM",
+      "title": "Judging"
+   },
+   {
+      "start": "3:30 PM",
+      "title": "Closing Ceremony"
+   }
+]

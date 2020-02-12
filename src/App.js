@@ -8,6 +8,7 @@ import Footer from './components/footer';
 import Sponsors from './components/sponsors';
 import MLHBanner from './components/mlh-banner';
 import Recruiting from './components/recruiting';
+import Schedule from './components/schedule';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Landing />
       <What />
       <FAQ />
+      <Schedule />
       <Team />
       <Sponsors />
       <Recruiting />
