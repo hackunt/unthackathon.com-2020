@@ -1,0 +1,16 @@
+.grid {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.grid > div {
+   width: 40% !important;
+   margin: 10px;
+   flex-grow: 1;
+}
+
+@media screen and (max-width: 800px) {
+   .grid > div {
+      width: 100% !important;
+   }
+}
