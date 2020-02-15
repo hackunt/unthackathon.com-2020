@@ -26,7 +26,7 @@ const Schedule = (props) => (
       <p style={{ fontSize: '2em', textAlign: 'center', lineHeight: '1.5em' }}>
          <a href='https://account.wolfram.com/redeem/HackUNTFeb2020'>Wolfram</a><br />
          <a href='https://www.voiceflow.com/hackathon/hackunt'>Voiceflow</a><br />
-         <a href=' https://balsamiq.com/wireframes/cloud/sales/promo/'>Balsamiq</a>
+         <a href=' https://balsamiq.com/wireframes/cloud/sales/promo/'>Balsamiq (BQCVZWFUV020620)</a>
       </p>
       <br />
    </div> 
