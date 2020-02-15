@@ -5,7 +5,7 @@
    },
    {
       "start": "10:45 AM",
-      "title": "Opening Ceremony"
+      "title": "Opening Ceremony (K 150)"
    },
    {
       "start": "11:00 AM",
@@ -17,11 +17,11 @@
    },
    {
       "start": "1:30 PM",
-      "title": "GitHub Workshop"
+      "title": "GitHub Workshop (K 150)"
    },
    {
       "start": "3:00 PM",
-      "title": "PWC Workshop"
+      "title": "PWC Workshop (K 150)"
    },
    {
       "start": "4:30 PM",
@@ -33,11 +33,11 @@
    },
    {
       "start": "6:00 PM",
-      "title": "Respec Workshop"
+      "title": "Respec Workshop (K 150)"
    },
    {
       "start": "7:30 PM",
-      "title": "AA Node Workshop"
+      "title": "AA Node Workshop (K 150)"
    },
    {
       "start": "9:00 PM",
@@ -49,7 +49,7 @@
    },
    {
       "start": "1:30 AM",
-      "title": "Angular Workshop"
+      "title": "Angular Workshop (K 150)"
    },
    {
       "start": "7:00 AM",
@@ -65,7 +65,7 @@
    },
    {
       "start": "9:00 AM",
-      "title": "How to Pitch Workshop"
+      "title": "How to Pitch Workshop (K 150)"
    },
    {
       "start": "10:00 AM",
@@ -85,6 +85,6 @@
    },
    {
       "start": "3:30 PM",
-      "title": "Closing Ceremony"
+      "title": "Closing Ceremony (K 150)"
    }
 ]
