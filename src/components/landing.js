@@ -14,7 +14,8 @@ const panels = [
    <RegisterButton />,
    // <MailingListSignup />
    <p style={{ textAlign: 'center', fontSize: '1.4em' }}>Interested in <a href='/2020_Sponsorship_Doc.pdf' style={{ color: 'rgb(49, 199, 69)', textDecoration: 'underline' }}>sponsoring</a>?</p>,
-   <p style={{ textAlign: 'center', fontSize: '1.4em' }}>Want to <a href='https://forms.gle/94axurayMeEhXgZj7' style={{ color: 'rgb(49, 199, 69)', textDecoration: 'underline' }}>volunteer</a>?</p>
+   <p style={{ textAlign: 'center', fontSize: '1.4em' }}>Want to <a href='https://forms.gle/94axurayMeEhXgZj7' style={{ color: 'rgb(49, 199, 69)', textDecoration: 'underline' }}>volunteer</a>?</p>,
+   <p style={{ textAlign: 'center', fontSize: '1.4em' }}>Join our <a href='https://join.slack.com/t/hackunt/shared_invite/enQtNTQwODcwNjM0MDA1LTFjZmZjZDY2Yjk0ZDM5NDg4ZTU5NTViODhkM2U2MjdkN2IxZjg5MTU3ZTU1YjUwYTEzZWNkMDE4NTQxYjg1YTU' style={{ color: 'rgb(49, 199, 69)', textDecoration: 'underline' }}>slack</a>!</p>
 ]
 
 class Landing extends Component {
