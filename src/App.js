@@ -35,6 +35,7 @@ const App = () => (
           <Logo />
           <Schedule />
           <Challenges />
+          <Footer />
         </Route>
         <Route path='/'>
           <Home />
