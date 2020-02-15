@@ -1,27 +1,37 @@
 [
    {
-      "title": "Challenge Name",
-      "description": "This is the description this is description hello hello description",
-      "prize": "Prize (4)"
+      "title": "State Farm",
+      "description": "Design a system that would allow State Farm to offer discounted home owners/renters insurance and/or life insurance based off of positive customer behavior. <a href='/sf.docx'>Read More</a>",
+      "prize": ""
    },
    {
-      "title": "Challenge Name",
-      "description": "This is the description this is description hello hello description",
-      "prize": "Prize (4)"
+      "title": "PwC",
+      "description": "Evil threat actors are attempting to bring down the infrastructure of Metropolis. We need your help to find what was breached and how. <a href='/pwc.docx'>Read More</a>",
+      "prize": ""
    },
    {
-      "title": "Challenge Name",
-      "description": "This is the description this is description hello hello description",
-      "prize": "Prize (4)"
+      "title": "Wolfram",
+      "description": "The Wolfram Award for everyone on your top fifteen teams via award letter with a maximum of five individuals per team. <a href='https://account.wolfram.com/redeem/HackUNTFeb2020'>Get Wolfram access</a>",
+      "prize": ""
    },
    {
-      "title": "Challenge Name",
-      "description": "This is the description this is description hello hello description",
-      "prize": "Prize (4)"
+      "title": "RESPEC",
+      "description": "$250 Amazon gift card",
+      "prize": ""
    },
    {
-      "title": "Challenge Name",
-      "description": "This is the description this is description hello hello description",
-      "prize": "Prize (4)"
+      "title": "Best Domain Registered with Domain.com",
+      "description": "Domain.com provides all the domain services you need from registration to hosting to SSL certificates and beyond. Each hacker will receive a FREE domain name and year of domain privacy from Domain.com for their project this weekend!",
+      "prize": ""
+   },
+   {
+      "title": "Best UIPath Automation hack",
+      "description": "Build an automation hack using UiPath! Each winning team member will receive a UiPath/MLH Branded Backpack and an opportunity to interview for a UiPath Internship in 2020 with high recommendation!",
+      "prize": ""
+   },
+   {
+      "title": "Best Use of Google Cloud",
+      "description": "Build your hackathon project with a suite of secure storage, powerful compute, and integrated data analytics products provided by Google Cloud. See full list of products here: g.co/cloud. Each winning team member will receive a Google Home Mini.",
+      "prize": ""
    }
 ]
