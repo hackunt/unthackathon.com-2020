@@ -33,5 +33,10 @@
       "title": "Best Use of Google Cloud",
       "description": "Build your hackathon project with a suite of secure storage, powerful compute, and integrated data analytics products provided by Google Cloud. See full list of products here: g.co/cloud. Each winning team member will receive a Google Home Mini.",
       "prize": ""
+   },
+   {
+      "title": "Most Creative Radar.io Hack",
+      "description": "Build the most creative hack using Radar's SDKs and APIs for geofencing, location search, and geocoding. Some ideas for location-aware projects include a delivery tracker, campus building locator, and a Find my Friends clone. Winning team members will be eligible to win a Tile Sticker Smart Tracker and a chance to be featured by Radar.",
+      "prize": ""
    }
 ]
