@@ -33,6 +33,9 @@ const App = () => (
       <Switch>
         <Route path='/live/'>
           <Logo />
+          <p style={{ textAlign: 'center', fontSize: '3em', margin: '180px auto' }}>
+            <a href='https://hackunt2020.devpost.com'>Submit to Devpost!</a>
+          </p>
           <Schedule />
           <Challenges />
           <Footer />
