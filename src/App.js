@@ -34,7 +34,7 @@ const App = () => (
         <Route path='/live/'>
           <Logo />
           <p style={{ textAlign: 'center', fontSize: '3em', margin: '180px auto' }}>
-            <a href='https://hackunt2020.devpost.com'>Submit to Devpost!</a>
+            <a href='https://forms.gle/jUbruHkq1kSPY9ZW8'>Interested in joining the HackUNT Team?!</a>
           </p>
           <Schedule />
           <Challenges />
