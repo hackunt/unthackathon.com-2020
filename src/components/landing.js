@@ -3,8 +3,6 @@ import './landing.css';
 import DiscoveryPark from './discovery-park';
 import Calendar from './calendar';
 import Logo from './logo';
-import Who from './who';
-import MailingListSignup from './mailing-list-signup';
 import RegisterButton from './register-button';
 
 const panels = [

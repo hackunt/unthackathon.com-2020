@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import previous_sponsors from '../content/previous_sponsors.json';
 import sponsors from '../content/sponsors.json';
 import './sponsors.css';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import Panel from './panel';
 
 const RegisterButton = (props) => (
-   <a href='https://register.weareasterisk.com/hackathons/hackunt20/application' target="_blank">
+   <a href='https://register.weareasterisk.com/hackathons/hackunt20/application' target="_blank" rel="noopener noreferrer">
       <Panel>
          <div className='text'>How...?</div>
          <p style={{

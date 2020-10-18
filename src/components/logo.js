@@ -20,7 +20,7 @@ class Logo extends Component {
             </h1>
             :
             <div className='pop'>
-               <img src='/images/logo.svg' style={{ display: 'block', width: '400px', maxWidth: '95%', height: 329, maxHeight: '78vw', margin: '40px auto' }} />
+               <img src='/images/logo.svg' alt='' style={{ display: 'block', width: '400px', maxWidth: '95%', height: 329, maxHeight: '78vw', margin: '40px auto' }} />
             </div>
          }
       </div>
