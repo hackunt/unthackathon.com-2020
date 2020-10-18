@@ -19,7 +19,6 @@ const Home = () => (
     <What />
     <FAQ />
     <Schedule />
-    // <Team />
     <Sponsors />
     <Recruiting />
     <Footer />
