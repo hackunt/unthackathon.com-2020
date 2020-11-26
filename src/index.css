@@ -1,22 +1,38 @@
 body, html {
    margin: 0;
    padding: 0;
-   font-family: 'mufferaw', 'Inconsolata';
+   font-family: 'Suisse Intl', 'Helvetica';
    overflow-x: hidden;
+   background-color: black;
 }
 
-section:first-of-type {
+.bg-image {
+   z-index: -10;
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+section.full {
    min-height: 100vh;
 }
 
 section {
    margin-bottom: 100px;
+   width: 100%;
+   padding: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+   section {
+      width: 1200px;
+   }
 }
 
 body {
-   background-image: url('/images/stippling.png');
-   background-size: 40%;
-   background-repeat: repeat-y;
+   color: white;
 }
 
 .pop {
@@ -26,26 +42,38 @@ body {
 }
 
 .wrap {
-   width: 600px;
-   max-width: 95%;
-   margin: 0 auto;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background-color: black;
 }
 
 h1, h2 {
-   color: rgb(49, 199, 69);
+   color: white;
+   opacity: 1;
    margin: 0;
    padding-top: 50px;
    font-size: 7em;
-   text-align: center;
-   text-shadow: 4px 0 0 #000, -4px 0 0 #000, 0 4px 0 #000, 0 -4px 0 #000, 
-                2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000,
-                1px 3px 0 #000, -1px 3px 0 #000, 1px -3px 0 #000, -1px -3px 0 #000,
-                3px 1px 0 #000, -3px 1px 0 #000, 3px -1px 0 #000, -3px -1px 0 #000,
-                -7px -7px 0 #fff, -10px -10px 0 #000;
 }
 
 h2 {
    font-size: 4em;
+}
+
+p {
+   font-size: 1.4rem;
+}
+
+.bg-green {
+   background-color: rgb(49, 199, 69);
+}
+.green {
+   color: rgb(49, 199, 69);
+}
+.number {
+   font-weight: bold;
+   font-size: 46px;
+   margin: 0 0.5rem;
 }
 
 .yellow {
