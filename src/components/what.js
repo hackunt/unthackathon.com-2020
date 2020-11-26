@@ -16,16 +16,11 @@ const What = (props) => (
             <br />
          </p>
          <AwesomeSlider>
-            {[...new Array(16)].map((_, i) => (
+            {[...new Array(15)].map((_, i) => (
                <div data-src={`/images/2019Photos/${i + 1}.jpg`} />
             ))}
          </AwesomeSlider>
       </div>
-      <p>
-         <br />
-         Our team has been working tirelessly to make HackUNT 2021 a fun and rewarding event, so come by if you want to learn, get free food, and maybe win some prizes! 
-         HackUNT will take place from March 15th to the 16th at <a style={{ textDecoration: 'underline', color: 'rgb(49, 199, 69)' }} href='https://goo.gl/maps/fYCFEUMP1Us'>Discovery Park</a> in Denton, TX.
-      </p>
    </div>
 )
 

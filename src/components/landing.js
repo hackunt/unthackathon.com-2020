@@ -6,6 +6,9 @@ import Logo from './logo';
 import RegisterButton from './register-button';
 import What from './what';
 import Stats from './stats';
+import MailingListSignup from './mailing-list-signup'
+import AwesomeSlider from 'react-awesome-slider'
+import 'react-awesome-slider/dist/styles.css'
 
 const panels = [
    <What />
@@ -20,29 +23,51 @@ const panels = [
 ]
 
 class Landing extends Component {
-   constructor (props) {
-      super(props);
+   // constructor (props) {
+   //    super(props);
 
-      this.state = {
-         numberToShow: 0
-      }
+   //    this.state = {
+   //       numberToShow: 0
+   //    }
 
-      let interval;
-      interval = setInterval(() => { 
-         this.setState({ numberToShow: this.state.numberToShow + 1 }, () => {
-            if (this.state.numberToShow >= panels.length) {
-               clearInterval(interval);
-            }
-         });
-      }, 250)
-   }
+   //    let interval;
+   //    interval = setInterval(() => { 
+   //       this.setState({ numberToShow: this.state.numberToShow + 1 }, () => {
+   //          if (this.state.numberToShow >= panels.length) {
+   //             clearInterval(interval);
+   //          }
+   //       });
+   //    }, 250)
+   // }
 
    render = () => (
       <div className="wrap">
          <section>
             {/* <Logo /> */}
             <h1>HackUNT 2021</h1>
-            {panels.filter((v, i) => parseInt(i) <= this.state.numberToShow)}
+
+            {/* {panels.filter((v, i) => parseInt(i) <= this.state.numberToShow)} */}
+            <div style={{display: 'flex', flexDirection:'row'}}>
+               <div style={{width: '50%'}}>
+                  <h3 style={{fontSize: '2rem'}}>March 15 - 16, 2021</h3>
+                  <h3 style={{fontSize: '1.5rem'}}>🚧 Under Construction 🚧</h3>
+                  <p style={{marginTop: '5rem'}}>
+                     HackUNT is the University of North Texas' annual hackathon. 
+                     A hackathon is a 24-hour development competition for coders, designers, and anyone with a good idea! 
+                     Don't worry if you aren't experienced either, HackUNT is a great place to learn! 
+                     We will have mentors and professionals from the industry to help along the way. 
+                     <br />
+                  </p>
+                  <MailingListSignup />
+               </div>
+               <div style={{width: '50%', padding: '5rem'}}>
+                  <AwesomeSlider>
+                     {[...new Array(15)].map((_, i) => (
+                        <div data-src={`/images/2019Photos/${i + 1}.jpg`} />
+                     ))}
+                  </AwesomeSlider>
+               </div>
+            </div>
          </section>
       </div>
    )
