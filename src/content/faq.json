@@ -9,7 +9,7 @@
    },
    {
       "question": "Who can attend?",
-      "answer": "To attend as a hacker, you need to be a student and at least 18 years old. If you're not 18 yet, go check out <a class=\"green\" href='https://hacktams.org'>hackTAMS</a> happening November 6 - 8, 2020!"
+      "answer": "To attend as a hacker, you need to be a student and at least 18 years old. If you're not 18 yet, go check out <a href='https://hacktams.org'>hackTAMS</a> happening November 6 - 8, 2020!"
    },
    {
       "question": "Who is accepted?",
@@ -25,7 +25,7 @@
    },
    {
       "question": "Any rules?",
-      "answer": "All work must be done at HackUNT 2020. We also adhere by MLH's Code of Conduct, which you can find <a class=\"green\" href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>here</a>."
+      "answer": "All work must be done at HackUNT 2020. We also adhere by MLH's Code of Conduct, which you can find <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>here</a>."
    },
    {
       "question": "What do I need to bring?",
@@ -33,6 +33,6 @@
    },
    {
       "question": "Got more questions?",
-      "answer": "Reach out to us at <a class=\"green\" href='mailto:officialhackunt@gmail.com'>officialhackunt@gmail.com</a> with your questions!"
+      "answer": "Reach out to us at <a href='mailto:officialhackunt@gmail.com'>officialhackunt@gmail.com</a> with your questions!"
    }
 ]

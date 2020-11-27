@@ -7,8 +7,7 @@
    border: 10px #000 solid;
    padding: 10px;
    font-size: 14px;
-   /* font-family: 'mufferaw', 'Inconsolata'; */
-   font-family: 'Suisse Intl', 'Helvetica';
+   font-family: 'mufferaw', 'Inconsolata';
 }
 
 #mce-EMAIL {

@@ -3,20 +3,16 @@ import social from '../content/social.json';
 import './footer.css';
 
 const Footer = (props) => (
-   <div className="wrap">
-      <section>
-         <footer style={{ textAlign: 'center' }}>
-            <p>
-               {
-                  social.map(v =>
-                     <a href={v.link}><i class={v.icon}></i></a>
-                  )
-               }
-            </p>
-            <p>&copy; Copyright 2020 HackUNT</p>
-         </footer>
-      </section>
-   </div>
+   <footer style={{ textAlign: 'center' }}>
+      <p>
+         {
+            social.map(v =>
+               <a href={v.link}><i class={v.icon}></i></a>
+            )
+         }
+      </p>
+      <p>&copy; Copyright 2020 HackUNT</p>
+   </footer>
 );
 
 export default Footer;
