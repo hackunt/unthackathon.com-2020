@@ -11,28 +11,17 @@ import Schedule from './components/schedule';
 import Challenges from './components/challenges';
 import Logo from './components/logo';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Stats from './components/stats';
-import Image from './components/image';
-import BackgroundImage from './components/background-image';
-import Winners from './components/winners';
 
 const Home = () => (
-  <div>
-    <BackgroundImage />
-    <div className="App">
-      {/* <MLHBanner /> */}
-      <Landing />
-      {/* <Image /> */}
-      <Stats />
-      {/* <Image /> */}
-      <Winners />
-      {/* <Image /> */}
-      {/* <FAQ /> */}
-      {/* <Schedule /> */}
-      <Sponsors />
-      {/* <Recruiting /> */}
-      <Footer />
-    </div>
+  <div className="App">
+    <MLHBanner />
+    <Landing />
+    <What />
+    <FAQ />
+    <Schedule />
+    <Sponsors />
+    <Recruiting />
+    <Footer />
   </div>
 )
 
