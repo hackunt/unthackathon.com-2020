@@ -1,0 +1,24 @@
+.carousel-step {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+.carousel-step > button {
+  width: 2.5rem;
+  height: 0.75rem;
+  margin-right: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+.winners {
+  display: flex;
+  flex-direction: column;
+}
+.winner {
+  font-size: 64px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
