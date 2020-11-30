@@ -29,7 +29,7 @@
 
 a:hover .sponsorlogo {
    /*filter: grayscale(0%) brightness(100%);*/
-   transform: scale(1.1) rotate(3deg);
+   /* transform: scale(1.1) rotate(3deg); */
 }
 
 .subheading {
@@ -45,7 +45,7 @@ a:hover .sponsorlogo {
 }
 
 .sponsor-section {
-   
+   background-color: black;
 }
 
 .bigger .sponsorlogo {
