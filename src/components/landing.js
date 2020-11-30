@@ -67,7 +67,7 @@ class Landing extends Component {
                <div style={{width: '50%', padding: '5rem'}}>
                   <AwesomeSlider>
                      {[...new Array(15)].map((_, i) => (
-                        <div data-src={`/images/2019Photos/${i + 1}.jpg`} />
+                        <div data-src={`/images/2020/${i + 1}.jpg`} />
                      ))}
                   </AwesomeSlider>
                </div>
