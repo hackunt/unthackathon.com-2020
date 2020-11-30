@@ -95,3 +95,11 @@ a.yellow {
       transform: scale(1) rotate(0);
    }
 }
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}

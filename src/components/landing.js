@@ -44,7 +44,11 @@ class Landing extends Component {
       <div className="wrap">
          <section>
             {/* <Logo /> */}
-            <h1>HackUNT 2021</h1>
+            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+               <h1>HackUNT 2021</h1>
+               {/* <p><a href='/2020_Sponsorship_Doc.pdf'>interested in sponsoring?</a></p> */}
+            </div>
+            <div style={{ width: 100, height: 20 }} className="bg-green"></div>
 
             {/* {panels.filter((v, i) => parseInt(i) <= this.state.numberToShow)} */}
             <div style={{display: 'flex', flexDirection:'row'}}>
