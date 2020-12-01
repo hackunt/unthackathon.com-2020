@@ -16,6 +16,7 @@
   flex-direction: column;
 }
 .winner {
+  color: white;
   font-size: 64px;
   font-weight: bold;
   text-decoration: none;
