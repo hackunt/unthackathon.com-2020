@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactWebMediaPlayer from 'react-web-media-player'
 import AwesomeSlider from 'react-awesome-slider'
 import 'react-awesome-slider/dist/styles.css'
 import './what.css'

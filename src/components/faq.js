@@ -1,6 +1,5 @@
 import React from 'react';
 import faqs from '../content/faq.json';
-import FAQBox from './faq-box';
 
 const FAQ = (props) => (
    <div className="wrap">

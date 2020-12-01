@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
 import './landing.css';
-import DiscoveryPark from './discovery-park';
-import Calendar from './calendar';
-import Logo from './logo';
-import RegisterButton from './register-button';
-import What from './what';
-import Stats from './stats';
 import MailingListSignup from './mailing-list-signup'
 import AwesomeSlider from 'react-awesome-slider'
 import 'react-awesome-slider/dist/styles.css'
 
-const panels = [
-   <What />
+// const panels = [
+//    <What />
    // <DiscoveryPark />,
    // <Calendar />,
    // <Who />,
@@ -20,7 +14,7 @@ const panels = [
    // <p style={{ textAlign: 'center', fontSize: '1.4em' }}>Interested in <a href='/2020_Sponsorship_Doc.pdf' style={{ color: 'rgb(49, 199, 69)', textDecoration: 'underline' }}>sponsoring</a>?</p>,
    // <p style={{ textAlign: 'center', fontSize: '1.4em' }}>Want to <a href='https://forms.gle/94axurayMeEhXgZj7' style={{ color: 'rgb(49, 199, 69)', textDecoration: 'underline' }}>volunteer</a>?</p>,
    // <p style={{ textAlign: 'center', fontSize: '1.4em' }}>Join our <a href='https://join.slack.com/t/hackunt/shared_invite/enQtNTQwODcwNjM0MDA1LTFjZmZjZDY2Yjk0ZDM5NDg4ZTU5NTViODhkM2U2MjdkN2IxZjg5MTU3ZTU1YjUwYTEzZWNkMDE4NTQxYjg1YTU' style={{ color: 'rgb(49, 199, 69)', textDecoration: 'underline' }}>slack</a>!</p>
-]
+// ]
 
 class Landing extends Component {
    // constructor (props) {
@@ -54,7 +48,7 @@ class Landing extends Component {
             <div style={{display: 'flex', flexDirection:'row'}}>
                <div style={{width: '50%'}}>
                   <h3 style={{fontSize: '2rem'}}>March 15 - 16, 2021</h3>
-                  <h3 style={{fontSize: '1.5rem'}}>🚧 Under Construction 🚧</h3>
+                  <h3 style={{fontSize: '1.5rem'}}><span role="img" aria-label="construction">🚧</span> Under Construction <span role="img" aria-label="construction">🚧</span></h3>
                   <p style={{marginTop: '5rem'}}>
                      HackUNT is the University of North Texas' annual hackathon. 
                      A hackathon is a 24-hour development competition for coders, designers, and anyone with a good idea! 
