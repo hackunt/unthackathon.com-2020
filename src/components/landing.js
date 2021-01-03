@@ -47,7 +47,7 @@ class Landing extends Component {
             {/* {panels.filter((v, i) => parseInt(i) <= this.state.numberToShow)} */}
             <div style={{display: 'flex', flexDirection:'row'}}>
                <div style={{width: '50%'}}>
-                  <h3 style={{fontSize: '2rem'}}>March 15 - 16, 2021</h3>
+                  <h3 style={{fontSize: '2rem'}}>March 13 - 14, 2021</h3>
                   <h3 style={{fontSize: '1.5rem'}}><span role="img" aria-label="construction">🚧</span> Under Construction <span role="img" aria-label="construction">🚧</span></h3>
                   <p style={{marginTop: '5rem'}}>
                      HackUNT is the University of North Texas' annual hackathon. 
