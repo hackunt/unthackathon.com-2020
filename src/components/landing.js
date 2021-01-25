@@ -50,7 +50,7 @@ class Landing extends Component {
                   <h3 style={{ fontSize: '2rem' }}>March 13 - 14, 2021</h3>
                   <h3 style={{ fontSize: '1.5rem' }}>
                      <span role="img" aria-label="construction">🚧</span>
-                      Under Construction 
+                      Under Construction
                       <span role="img" aria-label="construction">🚧</span>
                   </h3>
                   <p style={{ marginTop: '1rem' }}>
@@ -62,7 +62,9 @@ class Landing extends Component {
                   </p>
                   {/*Removed as we are no longer allowing mailing list signups in favor of having a register <MailingListSignup /> */}
                   <p>
-                     <button style={{ width: "45%", height: "5em", marginRight: "10%" }}>Register</button>
+                     <a href="https://hackunt.typeform.com/to/DlhVc6de" target="_blank" rel="nooperer noreferrer">
+                        <button style={{ width: "45%", height: "5em", marginRight: "10%" }}>Register</button>
+                     </a>
                      <button style={{ width: "45%", height: "5em" }}>Sponsor</button>
                   </p>
                </div>
