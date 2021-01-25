@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Stats from './components/stats';
 import BackgroundImage from './components/background-image';
 import Winners from './components/winners';
+import FAQ from './components/faq'
 
 const Home = () => (
   <div>
@@ -17,14 +18,14 @@ const Home = () => (
     <div className="App">
       {/* <MLHBanner /> */}
       <Landing />
+      <FAQ />
       {/* <Image /> */}
       <Stats />
       {/* <Image /> */}
       <Winners />
       {/* <Image /> */}
-      {/* <FAQ /> */}
-      {/* <Schedule /> */}
       <Sponsors />
+      {/* <Schedule /> */}
       {/* <Recruiting /> */}
       <Footer />
     </div>

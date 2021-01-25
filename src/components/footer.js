@@ -13,7 +13,7 @@ const Footer = (props) => (
                   )
                }
             </p>
-            <p>&copy; Copyright 2020 HackUNT</p>
+            <p>&copy; Copyright 2021 HackUNT</p>
          </footer>
       </section>
    </div>
