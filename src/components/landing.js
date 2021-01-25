@@ -62,10 +62,10 @@ class Landing extends Component {
                   </p>
                   {/*Removed as we are no longer allowing mailing list signups in favor of having a register <MailingListSignup /> */}
                   <p>
-                     <a href="https://hackunt.typeform.com/to/DlhVc6de" target="_blank" rel="nooperer noreferrer">
-                        <button style={{ width: "45%", height: "5em", marginRight: "10%" }}>Register</button>
+                     <a href="https://hackunt.typeform.com/to/DlhVc6de" target="_blank" rel="noopener noreferrer">
+                        <button style={{ width: "100%", height: "4em", textSizeAdjust: "auto", fontSize: "1em"}}><b>Register</b></button>
                      </a>
-                     <button style={{ width: "45%", height: "5em" }}>Sponsor</button>
+                     {/* <button style={{ width: "45%", height: "5em" }}>Sponsor</button> */}
                   </p>
                </div>
                <div style={{ width: '50%', padding: '5rem' }}>
